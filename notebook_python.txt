@@ -1,0 +1,11 @@
+Add the python in the windows environment based on Anaconda:
+
+win + R
+sysdm.cpl 
+advanced -> Environment Variables -> system variables -> path, add the python and conda path
+
+how to find the python and conda path in anaconda:
+
+open anaconda prompt
+>>where python
+>>where conda
