@@ -23,7 +23,8 @@ friends.index("Kevin")
 friends = ["Kevin", "Karen", "Jim", "Jim", "Oscar", "Toby"]
 print(friends.count("Jim"))
 
-friends.sort()
+friends.sort()  #change the original list
+sorted(friends)  #dont change the list
 friends.reverse()
 
 friends2 = friends.copy()

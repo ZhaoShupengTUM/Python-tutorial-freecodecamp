@@ -13,3 +13,9 @@ print(phrase.index("G"))
 print(phrase.index("Acad"))
 #replace the character
 print(phrase.replace("Giraffe", "Elephant"))
+
+#find the char in a string
+char = 'a'
+mystr = 'freecampdpde'
+if char in mystr:
+    print("yes")
