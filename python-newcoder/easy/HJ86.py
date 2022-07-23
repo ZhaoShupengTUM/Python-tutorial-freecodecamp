@@ -21,14 +21,13 @@ print(max(res))
 
 
 # better solver
-while True:
-    try:
-        a = int(input())
-        b = str(bin(a)[2:])
-        c = b.split('0')
-        l = []
-        for i in c:
-            l.append(len(i))
-        print(max(l))
-    except:
-        break
+num = bin(int(input()))
+
+num = num[2:]
+
+listnum = num.split('0')
+
+listcount = list(map(len, listnum))
+
+print(max(listcount))
+

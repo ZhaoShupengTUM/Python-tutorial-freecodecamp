@@ -24,8 +24,8 @@ friends = ["Kevin", "Karen", "Jim", "Jim", "Oscar", "Toby"]
 print(friends.count("Jim"))
 
 friends.sort()  #change the original list
-sorted(friends)  #dont change the list
-friends.reverse()
+sorted(friends)  #dont change the original list
+friends.reverse()  #reverse dont return any values
 
 friends2 = friends.copy()
 print(friends2)

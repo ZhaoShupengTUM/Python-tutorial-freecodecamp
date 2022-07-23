@@ -14,8 +14,10 @@ print(phrase.index("Acad"))
 #replace the character
 print(phrase.replace("Giraffe", "Elephant"))
 
-#find the char in a string
+#find the char in a string, in可以找字符或者字符串是否出现在另一个字符串中
 char = 'a'
 mystr = 'freecampdpde'
 if char in mystr:
     print("yes")
+
+#compare two chars using their ASCII code value
