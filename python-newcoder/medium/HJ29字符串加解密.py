@@ -5,7 +5,6 @@ while True:
         m = []
         n = []
         for c in a:
-            c = str(c)
             if c == 'Z':
                 c = 'a'
             elif c == 'z':
@@ -19,9 +18,9 @@ while True:
             elif c.isdigit():
                 c = str(int(c) + 1)
             m.append(c)
+
         print(''.join(m))
         for c in b:
-            c = str(c)
             if c == 'a':
                 c = 'Z'
             elif c == 'A':

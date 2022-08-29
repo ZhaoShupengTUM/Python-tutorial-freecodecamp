@@ -6,7 +6,8 @@ for i in range(nline):
     count = {}
     for i in norepeat:
         count[i] = mystr.count(i)
-    count = sorted(count.items(), key = lambda x:x[1], reverse=True)
+    count = sorted(count.items(), key = lambda x:x[1], reverse=True)   #字典按照value排序
+    print(count)
     countlist = [i for (i,j) in count]
     
     beauty = {}

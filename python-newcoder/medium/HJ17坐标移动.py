@@ -1,7 +1,8 @@
+#1. 检查输入正确
 strlist = input().split(";")
 x = 0
 y = 0
-# print(strlist)
+
 strlistnew = []
 for i in strlist:
     #check the correctness of the input
@@ -19,5 +20,5 @@ for i in strlistnew:
         y -= int(i[1:])
         
 print(str(x)+','+str(y))
-# print(strlist)
+
 
